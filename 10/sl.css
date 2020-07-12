@@ -1,0 +1,45 @@
+body{
+    background-image: url(22896.jpg)  ;
+    background-repeat: no-repeat;
+     
+    background-size: cover;
+   
+}
+.titulo{
+    
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    font-family: Mistral ;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.footer{
+    background-color: black;
+    width:1346spx; 
+    height: 340px;
+    text-align: center;
+    font-size: 25px;
+    font-family:  Clarendon Condensed ;
+    line-height: 40px;
+   
+   
+   
+
+    bottom: 0;
+    position: fixed;
+    position: relative;
+
+}
+.fuent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.palabras{
+    line-height: 30px;
+    word-spacing: 40px;
+    color: white;
+    font-size: 15px;
+}

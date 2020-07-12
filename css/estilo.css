@@ -1,0 +1,404 @@
+/*.bod{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+ /*body{
+
+    background-image: linear-gradient(rgba(0,0,0,0,5),rgba(0,0,0,5), url(psstore.jpg));
+    height: 100vh;
+    background-size: cover;
+ }
+*/
+
+.titulo{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    font-family: Broadway ;
+    font-size: 50px;
+    border-radius: 20px;
+    
+}
+/* ----------------------------------------------MENU----------------------------------*/
+*{  /*sacar todo por defecto*/
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navegacion{
+
+    
+    margin: 40px auto;
+    background: white;
+
+}
+.navegacion ul{
+     list-style: none; /*sacarle las viñetas a la lista*/
+}
+
+.menu  > li{
+
+    position: relative; /*para que no valla a ningun lado de la pagina*/
+   display: inline-block;
+
+}
+
+.menu > li > a{ /* acceder a los menus inicio
+                menu>li>a..esto es para acceder*/
+
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-family:  Clarendon Condensed  ;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.menu li a:hover{  /*la transicion*/
+    color: #B61356;
+    
+    transition: all .4s;
+}
+
+/*-------------------------------------------- SUB MENU------------------------- */
+
+.submenu {
+    position: absolute; /*para que los submenus queden adebajo*/
+    background: #0606B6;
+    width: 110%;
+    /*display: none; */     /*para que se oculte el submenu*/
+    visibility: hidden;  /*para la visualizacion y transicion*/
+    opacity: 0;
+    transition: opacity 2.3s ;
+
+}
+
+.submenu2 {
+    position: absolute; /*para que los submenus queden adebajo*/
+    background: #0606B6;
+    width: 130%;  /*el hancho de los sub menus*/
+    visibility: hidden; 
+    opacity: 0;  
+    transition: opacity 2.3s ;
+}
+
+.submenu3 {
+    position: absolute; /*para que los submenus queden adebajo*/
+    background: #0606B6;
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2.3s ;
+
+}
+
+.submenu4 {
+    position: absolute; /*para que los submenus queden adebajo*/
+    background: #0606B6;
+    width: 140%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 2.3s ;
+}
+
+.submenu5 {
+    position: absolute; /*para que los submenus queden adebajo*/
+    background: #0606B6;
+    width: 180%;
+    visibility: hidden; 
+    opacity: 0; 
+    transition: opacity 2.3s ; 
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px ;
+    color: #fff;
+    font-family:  Clarendon Condensed  ;
+    text-decoration: none;
+}
+.submenu2 li a{
+    display: block;
+    padding: 15px ;
+    color: #fff;
+    font-family:  Clarendon Condensed  ;
+    text-decoration: none;
+}
+.submenu3 li a{
+    display: block;
+    padding: 15px ;
+    color: #fff;
+    font-family:  Clarendon Condensed  ;
+    text-decoration: none;
+}
+.submenu4 li a{
+    display: block;
+    padding: 15px ;
+    color: #fff;
+    font-family:  Clarendon Condensed  ;
+    text-decoration: none;
+}
+.submenu5 li a{
+    display: block;
+    padding: 15px ;
+    color: #fff;
+    font-family:  Clarendon Condensed  ;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{  /*cuando pase el mouse aparesca el submenu y que le de un efecto*/
+
+      visibility: visible; 
+      opacity: 1;  /*para observar la trasicion en los submenus*/
+
+}     
+
+.menu li:hover .submenu2{  
+
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.menu li:hover .submenu3{  
+
+    visibility: visible;
+    opacity: 1;
+
+} 
+
+.menu li:hover .submenu4{  
+
+    visibility: visible;
+    opacity: 1;
+}   
+
+.menu li:hover .submenu5{  
+
+    visibility: visible;
+    opacity: 1;
+
+}  
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+} 
+/***------------------ Tamaño del Slider ****/
+.tama{ 
+  
+    padding-top: 90px;
+    
+  
+    width: 1200x;
+    height: 1000px;
+} 
+/*--------------------BOTON BUSCAR----------*/
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 93%;
+    top: 165px;
+    transform: translate(-50%,-50%);
+    background: blue;
+    padding: 3px;
+    border-radius: 10px;
+}
+ .buscar_texto{
+     border: none;
+     background: none;
+     outline:none;
+     color: white;
+     float: left;
+     font-size: 15px;
+     line-height: 30px;
+     transition: .3s;
+     width: 0;
+ }
+
+ .boton{
+     width: 45px;
+     height: 15px;
+     text-decoration: none;
+     color:black;
+     font-size: 15px;
+ }
+
+ /*===========RESPONSIVE========= HOver pasar el mouse y ver transicion
+ line-heigth alto de un boton*/
+ 
+@media screen and (min-width:480px){
+    .buscar:hover > .buscar_texto{
+        width: 167px;
+
+    }
+}
+
+/*===========================PIE DE PAGINA=========================================================*/
+.footer{
+  background-color: black;
+  width:1346px; 
+  height: 340px;
+  text-align: center;
+  font-size: 25px;
+  font-family:  Clarendon Condensed ;
+  line-height: 40px;
+
+  bottom: 0;
+  position: fixed;
+  position: relative;
+ }
+  
+.palabras{
+     line-height: 30px;
+     word-spacing: 40px;
+     color: white;
+     font-size: 15px;
+ }
+.fuent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/*===================================================================================================*/
+
+/********* FONDO DEL REGISTRO  */
+.fondo2{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/************ BOtones inicar y registrar/**************/
+
+.iniciar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 88%;
+    top: 119px;
+    transform: translate(-50%,-50%);
+   
+}
+.iniciar a{
+    color: white;
+}
+.iniciar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 96%;
+    top: 119px;
+    transform: translate(-50%,-50%);
+
+}
+.iniciar2 a{
+    color:white
+}
+/*  ------------------- LOGIN///////////////*/
+
+@import url('normalize.css');
+@import url('bootstrap.min.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	position: relative;  
+}
+.login{
+	width: 300px;
+	border: 1px solid #E1E1E1;
+	border-radius: 4px;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*Al momento de hacer pequeña la pantalla no se genero un scroll  RESPONSIVE*/
+@media (max-width: 400px){
+	.login{
+		width: 90%;
+	}
+}
+ 
+/*----------ICONO NUEVO DE BUSCAR DE FONT AWESOME---------------- -- */
+.buscar#lock::before{
+    
+    content: "\f002";
+}
+.fa-search{
+    /* esto es para el icono del candado*/
+       font-family:'Font Awesome\ 5 Free';
+       position: absolute;
+       right: 28px;
+       top: 8px;
+       font-size: 22px;
+       padding-top: 0px ;
+       
+
+}
+
+/***************** CARDS *************************/
+.card1{
+
+    position: absolute;
+    left: 500px;
+    bottom: 500px;
+    top: 1630px;
+  
+}
+
+.card2{
+
+    position: absolute;
+    left: 1000px;
+    bottom: 500px;
+    top: 1630px;
+
+}
+/***************** JUMBOTROM *************************/
+
+.jumb2{
+    position: absolute;
+    position: relative;
+    bottom: 50px;
+    top: 120px;
+
+    box-shadow: 0px 0px 15px blue 
+    
+}
+/***************** VIDEO *************************/
+
+.video{
+    position: absolute;
+    position: relative;
+    bottom: 50px;
+    top: 120px;
+    
+
+}
+
+.jumb {
+     
+    box-shadow: 0px 0px 15px blue 
+}
+
+
+
+/*****************************NOTICIASSS/*********************/
+

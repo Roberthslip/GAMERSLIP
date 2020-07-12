@@ -1,0 +1,74 @@
+body{  /* no-repeat para no repetir la imagen  center=horizontalmente  center=verticalment y fixed para que el tamaño se ajuste     */
+    background: url(../imagenes/player.png)no-repeat center center fixed; 
+    
+    /* backgroud-sise cover que cubra completamente el area          */ 
+    background-size: cover;
+}
+
+.seccion{
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+.modal-content{ /* caja que contiene todo*/
+    background-color:#3b4652 ;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 5px #848484; /*sombra al filo de la caja*/
+}
+
+.user{
+    margin-top: -45px  ; 
+    margin-bottom: 38px ;
+}
+.user img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484; 
+    border-radius: 50%;
+}
+ .form-group input {
+     height: 42px;
+     font-size: 18px ;
+     border: 0;
+     padding-left: 54px;
+     border-radius: 6px;
+}
+ .form-group::before{ /* Enlasando la libreria de la pagina de los iconos font awesome     */
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute; 
+    left: 28px;
+    font-size: 22px;
+ }
+
+ .form-group#user-groud::before{ /*Para los iconos en el input   */
+    
+    content: "\f007";
+
+ }
+ .buscar#lock::before{
+    
+    content: "\f023";
+}
+.fa-lock{
+    /* esto es para el icono del candado*/
+       font-family:'Font Awesome\ 5 Free';
+       position: absolute;
+       left: 28px;
+       top: 67px;
+       font-size: 22px;
+       padding-top: 0px ;
+
+}
+button{
+    width: 60%;
+    margin: 5px 0 25px; /* arriba-lados-abajo    */
+}
+.olvido{
+    padding: 5px 0;
+}
+
+.olvido a{    /* Al enlace que hay adentro cambiar el color a blanco   */
+    color: white;
+    
+}

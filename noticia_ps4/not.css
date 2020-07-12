@@ -1,0 +1,31 @@
+.footer{
+    background-color: black;
+    width:1346px; 
+    height: 340px;
+    text-align: center;
+    font-size: 25px;
+    font-family:  Clarendon Condensed ;
+    line-height: 40px;
+   
+   
+   
+
+    bottom: 0;
+    position: fixed;
+    position: relative;
+
+
+    
+    top: 2500px;
+   }
+    
+  .palabras{
+       line-height: 30px;
+       word-spacing: 40px;
+       color: white;
+       font-size: 15px;
+   }
+  .fuent{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }

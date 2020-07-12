@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!--FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- Los iconos tipo Solid de Fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+  <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="static/css/logi.css">
+
+
+  <link rel="stylesheet" href="intex.html">
+
+</head>
+
+<body>
+
+  <div class=" modal-dialog text-center">
+
+
+    <div class="col-sm-8 seccion">
+      <!--3 cuartos de toda la pantalla-->
+
+      <div class="modal-content">
+        <!--Caja del formulario-->
+
+        <div class="col-12  user ">
+          <!---Ancho total de la caja-->
+          <img src="kie.png">
+        </div>
+
+
+        <!---Ancho total-->
+        <div class="form-group" id="user-groud">
+          <!---los grupos individuales para los input-->
+          <!--form-control...control del formulario-->
+          <input type="text" name="use" class="form-control" placeholder="Nombre de Usuario">
+        </div>
+
+        <div class="form-group" id="contrasena-group">
+          <input type="password" name="contra" class="form-control" placeholder="Contraseña">
+        </div>
+        <!--  <div class="form-group" id="lock"> 
+         <input type="password" class="form-control" placeholder="Contraseña">
+       </div>-->
+
+        <button onclick="mostrar()" class="btn btn-primary"> <i class="fas fa-sign-in-alt"> </i> Ingresar </button>
+        <!--btn de bootstrap y primari para darle color -->
+        <!-- fas fa es para colocar iconos "-sign-in-alt"nombre del icono -->
+
+
+        <div class="col-12 olvido">
+          <!---Ancho total de la caja-->
+          <a href="#">Recordar contraseña</a>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="static/validacion.js"></script>
+</body>
+
+</html>

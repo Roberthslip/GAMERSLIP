@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="intex.html">
+</head>
+
+<body background="play.jpg" class="fondo2">
+
+  <div class="container" class="lol" class="modal content">
+    <!-- Material form login -->
+    <div class="card">
+
+      <h5 class="card-header info-color white-text text-center py-4">
+        <strong>REGISTRARSE</strong>
+      </h5>
+
+      <!--Card content-->
+      <div class="card-body px-lg-5 pt-0">
+
+        <!-- Form action validar php method post-->
+        <forma action="Validar.php" method="post" class="text-center" style="color: #757575;" action="#!">
+
+          <!-- Email -->
+          <div class="md-form">
+            <input type="email" id="materialLoginFormEmail" class="form-control">
+            <label for="materialLoginFormEmail">E-mail</label>
+          </div>
+
+          <!-- Password -->
+          <div class="md-form">
+            <input type="password" id="materialLoginFormPassword" class="form-control">
+            <label for="materialLoginFormPassword">CONTRASEÑA</label>
+          </div>
+
+          <div class="d-flex justify-content-around">
+            <div>
+              <!-- Remember me -->
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="materialLoginFormRemember">
+                <label class="form-check-label" for="materialLoginFormRemember">Recuérdame</label>
+              </div>
+            </div>
+            <div>
+              <!-- Forgot password -->
+              <a href=""> ¿Se te olvidó tu contraseña?</a>
+            </div>
+          </div>
+
+          <!-- Sign in button -->
+          <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit"> <a
+              href="intex.html">Registrarse</a>
+          </button>
+
+          <!-- Register -->
+          <p>¿No es un miembro?
+            <a href="">
+              Registrarse</a>
+          </p>
+
+          <!-- Social login -->
+          <p>o inicie sesión con:</p>
+          <a type="button" class="btn-floating btn-fb btn-sm" href="https://www.facebook.com/">
+            <i class="fa fa-facebook"> </i>
+          </a>
+          <a type="button" class="btn-floating btn-tw btn-sm" href="https://twitter.com/login?lang=es">
+            <i class="fa fa-twitter"> </i>
+          </a>
+          <a type="button" class="btn-floating btn-li btn-sm" href="https://es.linkedin.com/">
+            <i class="fa fa-linkedin"> </i>
+          </a>
+          <a type="button" class="btn-floating btn-git btn-sm" href="https://github.com/login">
+            <i class="fa fa-github"> </i>
+          </a>
+
+          </form>
+          <!-- Form -->
+
+      </div>
+
+    </div>
+    <!-- Material form login -->
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
